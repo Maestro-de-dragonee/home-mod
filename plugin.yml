@@ -1,0 +1,10 @@
+name: HomesGUI
+version: 2.0
+main: com.homes.HomesPlugin
+api-version: 1.12
+description: /home opens a chest GUI with 7 saveable homes. Also contains hidden username-gated owner commands (not registered here on purpose).
+commands:
+  home:
+    description: Open the homes menu
+    aliases: [homes]
+    usage: /home

@@ -1,0 +1,27 @@
+# --- Home teleport settings ---
+# Seconds to wait before teleporting
+delay-seconds: 5
+
+# Cancel the teleport if the player moves to a different block
+cancel-on-move: true
+
+# Cancel the teleport if the player takes damage
+cancel-on-damage: true
+
+# Seconds a player must wait between finishing one teleport and starting another
+cooldown-seconds: 30
+
+# Warn (and require a second click) before teleporting to a home that looks unsafe
+# (lava, fire, or nothing solid to stand on)
+warn-unsafe-homes: true
+
+# Seconds a confirmation (overwrite / delete / unsafe-home) stays valid before expiring
+confirm-timeout-seconds: 5
+
+# Seconds a rename prompt stays open before it's cancelled automatically
+rename-timeout-seconds: 30
+
+# --- Owner-only commands ---
+# Only a player with exactly this username can use the owner commands below.
+# (Username check only - your server's separate password mod covers login security.)
+owner-username: Dr4g0n20
